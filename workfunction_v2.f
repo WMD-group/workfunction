@@ -7,19 +7,20 @@ C V2 - Various updates from JLF Da Silva and A Walsh (2007-2009)
 C      http://people.bath.ac.uk/aw558 (a.walsh@bath.ac.uk)
 C
 C Reads in the 3D electrostatic potential (LOCPOT) from VASP
-C which is generated with LVTOT = .TRUE. in the INCAR file.
+C which is generated with LVHAR= .TRUE. in the INCAR file.
 C
 C Outputs the 1D potential averaged along one of the lattice
 C vectors, which can be used, e.g., to compute the vacuum level.
 C
-C Note: to obtain the Hartree contributions only, the flag
-C LVHAR= .TRUE. must also be set. 
+C Note: to obtain the Hartree + Exc contributions, the flag
+C LVTOT = .TRUE. should be set instead. In VASP 4, this flag (confusingly)
+C provided the Hatree contributions only.
 C
 C To do: 
 C 1. Automatically align values using the calculated vacuum level.
 C 2. Check if dipole corrections are required (slope of potential in the vacuum).
-C 3. Change axis to Angstrom (for all IDIR).
-C 4. Update to artbitrary number of ion types. 
+C 3. Change axis units to Angstrom (for all IDIR).
+C 4. Update to read artbitrary number of ion types. 
 C
       PROGRAM VTOTAV
       PARAMETER(NGXM=256,NOUTM=1024)
