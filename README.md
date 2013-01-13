@@ -8,3 +8,6 @@ Files:
 - workfunction_v2.f, compatible with VASP5 output
 - workfunction, a mac binary of v2
 - LOCPOT.zip, a sample electrostatic potential
+
+Used in:
+- "Structure, stability and work functions of the low index surfaces of pure indium oxide and Sn-doped indium oxide (ITO) from density functional theory" A. Walsh and C. R. A. Catlow, Journal of Materials Chemistry 20, 10438 (2010). DOI: 10.1039/C0JM01816C 
