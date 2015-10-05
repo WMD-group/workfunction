@@ -7,7 +7,7 @@ We recommend [MacroDensity](https://github.com/WMD-Bath/MacroDensity), which is 
 
 Files
 ------------
-- workfunction_v1.f, the original distribution version (pre-2006 as vtotav.f written by Andreas Eichler)
+- workfunction_v1.f, pre-2006 as vtotav.f written by Andreas Eichler
 - workfunction_v2.f, compatible with VASP5 output
 - workfunction, a mac binary of v2
 - LOCPOT.zip, a sample electrostatic potential
