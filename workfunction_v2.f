@@ -4,7 +4,6 @@ C distributed with VASP 4 and is of uncertain origin.
 C
 C V1 - Original distro version
 C V2 - Various updates from JLF Da Silva and A Walsh (2007-2009)
-C      http://people.bath.ac.uk/aw558 (a.walsh@bath.ac.uk)
 C
 C Reads in the 3D electrostatic potential (LOCPOT) from VASP
 C which is generated with LVHAR= .TRUE. in the INCAR file.
